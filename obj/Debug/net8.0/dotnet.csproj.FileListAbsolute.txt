@@ -1,0 +1,14 @@
+C:\Users\TI - 07\Documents\Pessoal\dotnet\bin\Debug\net8.0\dotnet.exe
+C:\Users\TI - 07\Documents\Pessoal\dotnet\bin\Debug\net8.0\dotnet.deps.json
+C:\Users\TI - 07\Documents\Pessoal\dotnet\bin\Debug\net8.0\dotnet.runtimeconfig.json
+C:\Users\TI - 07\Documents\Pessoal\dotnet\bin\Debug\net8.0\dotnet.dll
+C:\Users\TI - 07\Documents\Pessoal\dotnet\bin\Debug\net8.0\dotnet.pdb
+C:\Users\TI - 07\Documents\Pessoal\dotnet\obj\Debug\net8.0\dotnet.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\TI - 07\Documents\Pessoal\dotnet\obj\Debug\net8.0\dotnet.AssemblyInfoInputs.cache
+C:\Users\TI - 07\Documents\Pessoal\dotnet\obj\Debug\net8.0\dotnet.AssemblyInfo.cs
+C:\Users\TI - 07\Documents\Pessoal\dotnet\obj\Debug\net8.0\dotnet.csproj.CoreCompileInputs.cache
+C:\Users\TI - 07\Documents\Pessoal\dotnet\obj\Debug\net8.0\dotnet.dll
+C:\Users\TI - 07\Documents\Pessoal\dotnet\obj\Debug\net8.0\refint\dotnet.dll
+C:\Users\TI - 07\Documents\Pessoal\dotnet\obj\Debug\net8.0\dotnet.pdb
+C:\Users\TI - 07\Documents\Pessoal\dotnet\obj\Debug\net8.0\dotnet.genruntimeconfig.cache
+C:\Users\TI - 07\Documents\Pessoal\dotnet\obj\Debug\net8.0\ref\dotnet.dll
