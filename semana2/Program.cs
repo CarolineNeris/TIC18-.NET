@@ -13,6 +13,7 @@ class Program
             Console.WriteLine("------ Menu ------");
             Console.WriteLine("1. Criar Tarefa");
             Console.WriteLine("2.Listar Tarefas");
+            Console.WriteLine("3. Marcar Tarefa como concluída");
             Console.WriteLine("Escolha uma opção: ");
             if (int.TryParse(Console.ReadLine(), out opcao))
             {
@@ -32,6 +33,28 @@ class Program
                     case 2:
                         gerenciador.ListarTodasTarefas();
                         break;
+
+                    case 3:
+                        Console.WriteLine("Digite o nome da tarefa a ser marcada como concluída:");
+                        string nomeTarefa = Console.ReadLine();
+
+                        Console.WriteLine("Tem certeza que deseja marcar esta tarefa como concluída? (sim/não)");
+                        string resposta = Console.ReadLine().ToLower();
+
+                        if (resposta == "sim")
+                        {
+                            gerenciador.MarcarTarefaComoConcluida(nomeTarefa);
+                        }
+                        else if (resposta == "não")
+                        {
+                            Console.WriteLine("Operação cancelada.");
+                        }
+                        else
+                        {
+                            Console.WriteLine("Resposta inválida.");
+                        }
+                        break;
+
                     case 9:
                         Console.WriteLine("Saindo do programa...");
                         break;

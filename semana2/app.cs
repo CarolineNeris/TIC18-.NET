@@ -32,6 +32,22 @@ namespace app
                 Console.WriteLine($"Título: {tarefa.Titulo}, Descrição: {tarefa.Descricao}, Data de Vencimento: {tarefa.DataVencimento}, Concluída: {tarefa.Concluida}");
             }
         }
+        public void MarcarTarefaComoConcluida(string nomeTarefa)
+        {
+            Tarefa tarefaEncontrada = tarefas.Find(t => t.Titulo.Equals(nomeTarefa, StringComparison.OrdinalIgnoreCase));
+
+            if (tarefaEncontrada != null)
+            {
+                tarefaEncontrada.Concluida = true;
+                Console.WriteLine($"Tarefa '{nomeTarefa}' marcada como concluída.");
+            }
+            else
+            {
+                Console.WriteLine($"Tarefa '{nomeTarefa}' não encontrada.");
+            }
+        }
+
+
     }
 
 }
