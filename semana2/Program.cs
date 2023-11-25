@@ -14,6 +14,8 @@ class Program
             Console.WriteLine("1. Criar Tarefa");
             Console.WriteLine("2.Listar Tarefas");
             Console.WriteLine("3. Marcar Tarefa como concluída");
+            Console.WriteLine("4. Listar tarefas pendentes");
+             Console.WriteLine("4. Listar tarefas concluídas");
             Console.WriteLine("Escolha uma opção: ");
             if (int.TryParse(Console.ReadLine(), out opcao))
             {
@@ -54,7 +56,12 @@ class Program
                             Console.WriteLine("Resposta inválida.");
                         }
                         break;
-
+                    case 4:
+                        gerenciador.ListarTarefasPendentes();
+                        break;
+                    case 5:
+                    gerenciador.ListarTarefasConcluidas();
+                    break;
                     case 9:
                         Console.WriteLine("Saindo do programa...");
                         break;

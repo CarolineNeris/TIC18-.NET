@@ -56,7 +56,16 @@ namespace app
                 }
             }
         }
-
+  public void ListarTarefasConcluidas()
+    {
+        foreach (Tarefa tarefa in tarefas)
+        {
+            if (tarefa.Concluida)
+            {
+                Console.WriteLine($"Título: {tarefa.Titulo}, Descrição: {tarefa.Descricao}, Data de Vencimento: {tarefa.DataVencimento}");
+            }
+        }
+    }
     }
 
 }
