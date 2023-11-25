@@ -46,7 +46,16 @@ namespace app
                 Console.WriteLine($"Tarefa '{nomeTarefa}' não encontrada.");
             }
         }
-
+        public void ListarTarefasPendentes()
+        {
+            foreach (Tarefa tarefa in tarefas)
+            {
+                if (!tarefa.Concluida)
+                {
+                    Console.WriteLine($"Título: {tarefa.Titulo}, Descrição: {tarefa.Descricao}, Data de Vencimento: {tarefa.DataVencimento}");
+                }
+            }
+        }
 
     }
 
