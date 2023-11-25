@@ -17,7 +17,8 @@ class Program
             Console.WriteLine("4. Listar tarefas pendentes");
             Console.WriteLine("5. Listar tarefas concluídas");
             Console.WriteLine("6. Excluir tarefa");
-            Console.WriteLine("6. Pesquisar tarefas");
+            Console.WriteLine("7. Pesquisar tarefas");
+            Console.WriteLine("8. Estatisticas");
             Console.WriteLine("Escolha uma opção: ");
             if (int.TryParse(Console.ReadLine(), out opcao))
             {
@@ -84,12 +85,14 @@ class Program
                             Console.WriteLine("Resposta inválida.");
                         }
                         break;
-case 7:
-    Console.WriteLine("Digite o nome da tarefa a ser pesquisada:");
-    string nomeTarefaPesquisar = Console.ReadLine();
-    gerenciador.PesquisarTarefa(nomeTarefaPesquisar);
-    break;
-
+                    case 7:
+                        Console.WriteLine("Digite o nome da tarefa a ser pesquisada:");
+                        string nomeTarefaPesquisar = Console.ReadLine();
+                        gerenciador.PesquisarTarefa(nomeTarefaPesquisar);
+                        break;
+                    case 8:
+                        gerenciador.MostrarEstatisticasBasicas();
+                        break;
                     case 9:
                         Console.WriteLine("Saindo do programa...");
                         break;
