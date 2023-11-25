@@ -15,7 +15,9 @@ class Program
             Console.WriteLine("2.Listar Tarefas");
             Console.WriteLine("3. Marcar Tarefa como concluída");
             Console.WriteLine("4. Listar tarefas pendentes");
-             Console.WriteLine("4. Listar tarefas concluídas");
+            Console.WriteLine("5. Listar tarefas concluídas");
+            Console.WriteLine("6. Excluir tarefa");
+            Console.WriteLine("6. Pesquisar tarefas");
             Console.WriteLine("Escolha uma opção: ");
             if (int.TryParse(Console.ReadLine(), out opcao))
             {
@@ -60,8 +62,34 @@ class Program
                         gerenciador.ListarTarefasPendentes();
                         break;
                     case 5:
-                    gerenciador.ListarTarefasConcluidas();
-                    break;
+                        gerenciador.ListarTarefasConcluidas();
+                        break;
+                    case 6:
+                        Console.WriteLine("Digite o nome da tarefa a ser excluída:");
+                        string nomeTarefaExcluir = Console.ReadLine();
+
+                        Console.WriteLine("Tem certeza que deseja excluir esta tarefa? (sim/não)");
+                        string respostaExcluir = Console.ReadLine().ToLower();
+
+                        if (respostaExcluir == "sim")
+                        {
+                            gerenciador.ExcluirTarefa(nomeTarefaExcluir);
+                        }
+                        else if (respostaExcluir == "não")
+                        {
+                            Console.WriteLine("Operação de exclusão cancelada.");
+                        }
+                        else
+                        {
+                            Console.WriteLine("Resposta inválida.");
+                        }
+                        break;
+case 7:
+    Console.WriteLine("Digite o nome da tarefa a ser pesquisada:");
+    string nomeTarefaPesquisar = Console.ReadLine();
+    gerenciador.PesquisarTarefa(nomeTarefaPesquisar);
+    break;
+
                     case 9:
                         Console.WriteLine("Saindo do programa...");
                         break;

@@ -66,6 +66,35 @@ namespace app
             }
         }
     }
+    public void ExcluirTarefa(string nomeTarefa)
+{
+    Tarefa tarefaEncontrada = tarefas.Find(t => t.Titulo.Equals(nomeTarefa, StringComparison.OrdinalIgnoreCase));
+
+    if (tarefaEncontrada != null)
+    {
+        tarefas.Remove(tarefaEncontrada);
+        Console.WriteLine($"Tarefa '{nomeTarefa}' excluída com sucesso.");
+    }
+    else
+    {
+        Console.WriteLine($"Tarefa '{nomeTarefa}' não encontrada para exclusão.");
+    }
+}
+public void PesquisarTarefa(string nomeTarefa)
+{
+    Tarefa tarefaEncontrada = tarefas.Find(t => t.Titulo.Equals(nomeTarefa, StringComparison.OrdinalIgnoreCase));
+
+    if (tarefaEncontrada != null)
+    {
+        Console.WriteLine($"Tarefa encontrada - Título: {tarefaEncontrada.Titulo}, Descrição: {tarefaEncontrada.Descricao}, Data de Vencimento: {tarefaEncontrada.DataVencimento}, Concluída: {tarefaEncontrada.Concluida}");
+    }
+    else
+    {
+        Console.WriteLine($"Tarefa '{nomeTarefa}' não encontrada.");
+    }
+}
+
+
     }
 
 }
