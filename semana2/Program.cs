@@ -1,18 +1,19 @@
 ﻿using System;
-using GerenciadorTarefas;
+using app;
 
 class Program
 {
     static void Main(string[] args)
     {
-        GerenciadorTarefas.GerenciadorTarefas gerenciador = new GerenciadorTarefas.GerenciadorTarefas();
+        app.GerenciadorTarefas gerenciador = new app.GerenciadorTarefas();
 
         int opcao = 0;
         do
         {
             Console.WriteLine("------ Menu ------");
             Console.WriteLine("1. Criar Tarefa");
-            Console.Write("Escolha uma opção: ");
+            Console.WriteLine("2.Listar Tarefas");
+            Console.WriteLine("Escolha uma opção: ");
             if (int.TryParse(Console.ReadLine(), out opcao))
             {
                 switch (opcao)
@@ -26,6 +27,10 @@ class Program
                         DateTime dataVencimento;
                         DateTime.TryParse(Console.ReadLine(), out dataVencimento);
                         gerenciador.CriarTarefa(titulo, descricao, dataVencimento);
+                        break;
+
+                    case 2:
+                        gerenciador.ListarTodasTarefas();
                         break;
                     case 9:
                         Console.WriteLine("Saindo do programa...");
