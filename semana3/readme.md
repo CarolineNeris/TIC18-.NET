@@ -53,3 +53,9 @@ Desenvolver um sistema de gerenciamento de estoque que emprega os conceitos menc
 - [Expressões Lambda em C#](https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/operators/lambda-expressions)
 - [Introdução ao LINQ](https://learn.microsoft.com/pt-br/dotnet/csharp/programmingguide/concepts/linq/introduction-to-linq-queries)
 - [Tratamento de Exceções em C#](https://learn.microsoft.com/pt-br/dotnet/csharp/fundamentals/exceptions/)
+
+
+# Autores
+
+| [<img src="https://avatars.githubusercontent.com/u/85597024?s=400&u=a2e62cbd29eecb1443a99a47115f3a8be2695be3&v=4" width=115><br><sub>Ana Caroline </sub>](https://github.com/CarolineNeris) | 
+|:-------------------------------------------------------------------------------------------------------------------------------------------------:|
