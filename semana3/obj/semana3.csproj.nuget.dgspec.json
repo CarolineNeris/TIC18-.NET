@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Carol\\Documents\\VS CODEg\\VS CODE\\PROJETO\\TIC18-.NET\\semana3\\TIC18-.NET\\semana2\\SEMANA2.csproj": {}
+    "C:\\Users\\Carol\\Documents\\VS CODEg\\VS CODE\\PROJETO\\TIC18-.NET\\semana3\\tic18-.net\\semana3\\semana3.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Carol\\Documents\\VS CODEg\\VS CODE\\PROJETO\\TIC18-.NET\\semana3\\TIC18-.NET\\semana2\\SEMANA2.csproj": {
+    "C:\\Users\\Carol\\Documents\\VS CODEg\\VS CODE\\PROJETO\\TIC18-.NET\\semana3\\tic18-.net\\semana3\\semana3.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Carol\\Documents\\VS CODEg\\VS CODE\\PROJETO\\TIC18-.NET\\semana3\\TIC18-.NET\\semana2\\SEMANA2.csproj",
-        "projectName": "SEMANA2",
-        "projectPath": "C:\\Users\\Carol\\Documents\\VS CODEg\\VS CODE\\PROJETO\\TIC18-.NET\\semana3\\TIC18-.NET\\semana2\\SEMANA2.csproj",
+        "projectUniqueName": "C:\\Users\\Carol\\Documents\\VS CODEg\\VS CODE\\PROJETO\\TIC18-.NET\\semana3\\tic18-.net\\semana3\\semana3.csproj",
+        "projectName": "semana3",
+        "projectPath": "C:\\Users\\Carol\\Documents\\VS CODEg\\VS CODE\\PROJETO\\TIC18-.NET\\semana3\\tic18-.net\\semana3\\semana3.csproj",
         "packagesPath": "C:\\Users\\Carol\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Carol\\Documents\\VS CODEg\\VS CODE\\PROJETO\\TIC18-.NET\\semana3\\TIC18-.NET\\semana2\\obj\\",
+        "outputPath": "C:\\Users\\Carol\\Documents\\VS CODEg\\VS CODE\\PROJETO\\TIC18-.NET\\semana3\\tic18-.net\\semana3\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Carol\\AppData\\Roaming\\NuGet\\NuGet.Config",
